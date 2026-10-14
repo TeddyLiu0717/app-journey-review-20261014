@@ -1,0 +1,357 @@
+{
+  "title": "Dino 与四款 App：注册、免费课与重叠模块拆解",
+  "as_of": "2026-10-14",
+  "window": "2026-10-03至2026-10-14本机实测；不同版本/设备与阶段均按来源日期保留。",
+  "purpose": "以成对证据找出Dino可保留的优势与可验证的优化点，同时固化模拟器体验工作流。",
+  "boundary": "代表性免费链路；合成成人输入与虚构档案。无付款/自动续费、无真实儿童样本、无转化或学习效果结论。公开视频为无声UI佐证，完整原片保留本地。",
+  "summary": [
+    "Dino的可见优势是老师角色、情境对话、游戏收藏与单课报告连在一起；本样本的主要优化方向是让纠错、重试和报告中的实际语音状态更明确。",
+    "Duolingo提供免账号先体验再建档，以及错题重练/口语跳过；Speak提供讲解→口语→快问快答和明确纠正后的重试。这些是可迁移的交互机制，不是成人产品整体优于儿童产品的结论。",
+    "Buddy与Lingokids把游戏、贴纸/星级和课程地图做成清晰循环，但完成/奖励可能在没有正确语音或未全题正确时出现。Dino应把体验完成、实际作答与掌握证据分开。",
+    "这次模拟器问题集中在设备兼容、采集真实性、输入时机和证据定位；下一次采用每App合格配置、一次资格预检、连续模块测试、故障指纹缓存、统一证据导出。"
+  ],
+  "journeys": [
+    {
+      "app": "Dino AI",
+      "audience": "儿童英语",
+      "version": "1.8.2（本轮既有样本）",
+      "entry": "价值轮播 / AI老师介绍 → Google或Facebook入口 → 隐私暂停完成Google身份衔接",
+      "profile": "昵称 → 年龄 → 基础 → 目标（界面4/4）→ 选择老师",
+      "course": "体验课情境对话/食物词 → 语音/提交/帮助 → 礼盒与奖励 → Lesson Complete → 反馈Submit → Trial Report",
+      "after": "单课报告 → 个性化路径/Pro、Max预览 → 首页/Explore/Play → 免费Words、Radio、Blind Box、Speaking代表模块 → 锁定或每日额度墙 → 关闭/部分入口优惠 → 返回",
+      "save": "普通App/设备重开免再次登录；虚构档案、主课完成标记及旧报告保持。",
+      "identity_limit": "本样本未见游客入口；Google衔接不是新注册成功或所有版本均无游客的证明；Facebook未实测。",
+      "course_limit": "课堂UI完课不证明全部语音提交/全题正确；报告实际8次互动、0 Speaking Turns、0 Words Spoken并列。预测L1→L2为App自述。",
+      "evidence": [
+        "dino-entry",
+        "dino-profile",
+        "dino-report",
+        "dino-plan",
+        "dino-reward",
+        "dino-radio"
+      ]
+    },
+    {
+      "app": "Buddy.ai",
+      "audience": "儿童英语",
+      "version": "6.31/6.32系列（分批观察）",
+      "entry": "介绍/权限提示 → 儿童角色房间与主题目录；免费样本不要求先建Buddy账户",
+      "profile": "家长年份门槛 → 虚构年龄/姓名可跳过/兴趣 → 阅读/数学/家庭教育/偏好问卷 → World/Home",
+      "course": "主题地图 → 听词/看卡 → 故意错选与提示 → 正确选择/跟读邀请 → 3星 → Claim → 地图/房间；另有描画、配对、Body及Chat样本",
+      "after": "角色与装备/游戏币 → 下一主题或Unlock all；家长Settings/Account仅订阅用户创建账户的可见限制",
+      "save": "本地角色/金币/节点在各批恢复后可见；免费邮件报告和账号云同步没有完成验证。",
+      "identity_limit": "只把观察到的创建账户分支标受限；Sign In仍显示，不能称所有登录被禁用。设备Google Play账号不等于Buddy账户。",
+      "course_limit": "部分词卡在只点提示、无输入或错误输入时也推进；奖励不作为独立识别正确率。Chat重说反馈经重新进入，不是原回合即时采纳得分。",
+      "evidence": [
+        "buddy-profile",
+        "buddy-wrong",
+        "buddy-correct",
+        "buddy-reward",
+        "buddy-chat"
+      ]
+    },
+    {
+      "app": "Lingokids",
+      "audience": "儿童综合学习/英语",
+      "version": "26.40.0（最新完整课样本）",
+      "entry": "注册/Personalize入口 → 虚构6岁/English → 商店/网络错误提示 → Try the limited version → 免费主页",
+      "profile": "默认合成Your kid → Parents Area年份门槛 → 成人邮箱Save → 普通重启保持；该隐私绑定过程不公开",
+      "course": "官方免费Astronaut122入口 → 3本任务册 + 起始Knowledge Check/最终Progress Check → 阅读/贴纸/词汇/连线/选择/抓取/分类/排序/视频/复习 → 3 units证书",
+      "after": "自动新课程推荐 → 重开原课可见三本完成勾/满进度/证书入口 → 家长Progress Reports",
+      "save": "完成记录普通重启保持；课后15 Completed，再次普通重启仍15。",
+      "identity_limit": "邮箱绑定UI持久化已证；未验证邮箱归属、密码登录、新注册后跨设备恢复或云同步。Basic与Inactive不能混成免费版失效。",
+      "course_limit": "20个课程活动与家长15个不同活动口径不同；无语音时也可继续口语邀请。Astronomer166 Match崩溃仍未走通，不由另一课程补成成功。",
+      "evidence": [
+        "lingo-entry",
+        "lingo-sort",
+        "lingo-speaking",
+        "lingo-speaking-auto",
+        "lingo-certificate",
+        "lingo-certificate-video",
+        "lingo-progress"
+      ]
+    },
+    {
+      "app": "Speak",
+      "audience": "成人/大众英语（机制参照）",
+      "version": "4.68.0（既有样本）",
+      "entry": "学习English/简中界面 → 邮箱/Google/Facebook账号入口 → 隐私暂停Google衔接 → Tutor引导",
+      "profile": "虚构成人姓名/20–29岁 → 旅行目标语音访谈与文字补充 → 时间/基础 → 预测计划 → 每日15分钟/通知选择",
+      "course": "首课视频讲解 → 口语练习 → 快问快答/应用对话 → 错答提示/解释/重试 → 8/9与星级结果 → 首页三模式勾 → 复习",
+      "after": "词汇/习语 → 收藏/已复习筛选 → Tutor帮助/自定义课5问→摘要→3句预览 → Full Access或第二单元预览门槛 → X/Return Home",
+      "save": "继续/重新开始可见，已收藏词与自定义课程卡普通重启保持；不推长期有效。",
+      "identity_limit": "已有Google身份衔接与免再次登录已证；未从零创建邮箱账号或验证其它注册方式。",
+      "course_limit": "首访谈自报学过一个月而反馈写从未学过，保留摘要差异；自定义5问摘要准确，仅预览系列1/3，不称完整付费课程。",
+      "evidence": [
+        "speak-entry",
+        "speak-plan",
+        "speak-modes",
+        "speak-correction",
+        "speak-custom",
+        "speak-personalized"
+      ]
+    },
+    {
+      "app": "Duolingo",
+      "audience": "大众语言学习（机制参照）",
+      "version": "2026-10-04至13观察版本，未统一成单一设备样本",
+      "entry": "GET STARTED / 已有账号两个入口 → 中文使用者学英语 → 初学/旅游/每日目标 → 免费首课",
+      "profile": "初期引导宣传9 quick questions；学习目标10分钟 → 完课后建档提示选择稍后 → 游客个人页",
+      "course": "选词/翻译/配对/听辨/跟读 → 故意错答显示正解 → 末尾错题重练 → XP/正确率UI/连胜奖励；另独立发音课到13XP/87%",
+      "after": "7天目标/宝石 → 建档Later → 节点进度/每日任务/widget → 联赛/社交与Lily通话账户或订阅门槛 → 可退出返回",
+      "save": "未注册游客普通重启仍见节点/连胜；不是跨设备同步。",
+      "identity_limit": "本样本首课可免登录，稍后建档；退出登录文字不是注册成功证明。没有激活试用或同步联系人。",
+      "course_limit": "初课跳过口语与后续15题完整样本分开；13XP/87%是App结果，非ASR率；UI用时包含测试等待，不用于比较正常学习时长。",
+      "evidence": [
+        "duo-entry",
+        "duo-guest",
+        "duo-correction",
+        "duo-repair",
+        "duo-skip",
+        "duo-phonetic"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "M01",
+      "module": "注册与首次价值兑现",
+      "task": "新用户先体验到什么，再承担身份/画像动作",
+      "dino": "老师价值介绍后即Google/Facebook，之后4步画像与选老师；身份入口清楚，体验前已有动作门槛。",
+      "competitor": "Duolingo GET STARTED先课后建档Later；Buddy免费节点先可进入；Speak身份后访谈；Lingo limited免费出口可达。",
+      "advantage": "Dino老师角色与统一学习档案入口直观；Duolingo在本样本更早提供免账号体验。",
+      "tradeoff": "先登录便于身份衔接，但无法仅凭顺序证明其造成流失；游客先体验也不能由本地保存推跨设备可靠。",
+      "opportunity": "O03：评估家长可控的游客体验路径与课后保存绑定。",
+      "evidence": [
+        "dino-entry",
+        "dino-profile",
+        "duo-entry",
+        "duo-guest",
+        "speak-entry",
+        "lingo-entry"
+      ]
+    },
+    {
+      "id": "M02",
+      "module": "画像与计划解释",
+      "task": "回答的目标是否能在计划或课程中找到对应",
+      "dino": "昵称/年龄/基础/目标后提供选老师、L1→L2、144课/12单元/周频次计划；解释路线可见，效果预测未验证。",
+      "competitor": "Buddy问阅读/数学与兴趣但到题目的映射未证；Speak自定义5问汇总并生成航空沟通预览，首访谈另有归纳差异。",
+      "advantage": "Dino的阶段和频次表达明确；Speak自定义课把输入需求与具体情境连接得更可核对。",
+      "tradeoff": "更长访谈增加解释机会也增加步骤；不能把计划里的日期/等级提升承诺当实测。",
+      "opportunity": "O04：展示哪些回答影响哪类内容，并允许修改摘要。",
+      "evidence": [
+        "dino-profile",
+        "dino-plan",
+        "buddy-profile",
+        "speak-plan",
+        "speak-custom",
+        "speak-personalized"
+      ]
+    },
+    {
+      "id": "M03",
+      "module": "课内教学结构",
+      "task": "讲解、练习、检查与下一步能否看成一条闭环",
+      "dino": "角色/情境、词汇、互动、礼盒、完课反馈、单课报告连在一起；自由Speaking与Words/Radio/Play另有入口。",
+      "competitor": "Speak视频→口语→快问快答三模式完成可见；Lingo三本多种操作后最终检查与证书；Duo错题重练到结果。",
+      "advantage": "Dino把老师情境和游戏化结合；Speak模式分工、Lingo任务册/最终检查提供可读的阶段目标。",
+      "tradeoff": "结构更清楚不自动等于学习更好；Lingo完成勾包含无语音继续、Dino零口语报告也需解释实际作答。",
+      "opportunity": "O05：为每段明确目标、输入要求与完成依据，完课后突出下一步。",
+      "evidence": [
+        "dino-report",
+        "dino-reward",
+        "speak-modes",
+        "lingo-sort",
+        "lingo-certificate",
+        "duo-repair"
+      ]
+    },
+    {
+      "id": "M04",
+      "module": "纠错与正确重试",
+      "task": "错答后能否知道错在哪、怎样再试、改正是否被采纳",
+      "dino": "自由对话错句样本继续话题；明确请求纠正后才给正确句。自然对话连贯，但本样本的学习纠错需要主动求助。",
+      "competitor": "Speak显示红色结果、建议、解释与重试后的绿色；但本题要求Sounds boring，建议却给Sounds good。Duo错答显示正解并末尾重练；Buddy错选后正确选择进奖励。",
+      "advantage": "Dino对话连续性是优点；Speak与Duo的教学模式在本样本更显式地关闭纠错循环。",
+      "tradeoff": "自由聊天与目标练习的期待不同。Speak状态清晰，但此题建议方向与负面目标不一致；明确的纠正UI不保证纠正内容合适。不据有限样本判断模型或ASR总体能力。",
+      "opportunity": "O01：在教学练习中提供错误→短提示→再试→采纳的明确状态。",
+      "evidence": [
+        "dino-chat-error",
+        "dino-chat-correction",
+        "speak-correction",
+        "duo-correction",
+        "duo-repair",
+        "buddy-wrong",
+        "buddy-correct",
+        "speak-error-page",
+        "speak-explanation-page",
+        "speak-target-page"
+      ]
+    },
+    {
+      "id": "M05",
+      "module": "无输入、失败与替代路径",
+      "task": "暂时无法完成语音时能否继续，并清楚知道跳过了什么",
+      "dino": "有mic/send与Help入口；报告能出现互动完成而语音轮次0。具体每次输入是否有效不能由UI推进倒推。",
+      "competitor": "Duo明确跳过本单元口语；Speak一些环节可文字回答；Lingo在权限关闭且没有语音输入时也继续，未明示为已掌握。",
+      "advantage": "Dino报告字段提供分列空间；Duo显式跳过路径更容易让用户知道本次未练口语。",
+      "tradeoff": "替代路径应避免把无输入当成功；Lingo的无语音推进适合维持流程，但不能当发音达标。",
+      "opportunity": "O02：把未提交/未识别/错误/跳过/已练分别显示，明确文字与听力替代。",
+      "evidence": [
+        "dino-report",
+        "duo-skip",
+        "lingo-speaking",
+        "lingo-speaking-auto",
+        "speak-modes"
+      ]
+    },
+    {
+      "id": "M06",
+      "module": "游戏与奖励",
+      "task": "奖励是否形成可见回路，并与学习表现区分",
+      "dino": "Blind Box末题→票→Hena角色→轮次奖励；游戏币/收藏/日免费次数门槛可见。",
+      "competitor": "Buddy3星→Claim→地图/房间；DuoXP/连胜/任务；Lingo多节点勾与3units证书。",
+      "advantage": "Dino角色收藏与奖励出口具有持续可见资产；Buddy的节点领奖和Lingo的章节证书便于理解完成位置。",
+      "tradeoff": "奖励是完成反馈，不是学习证据；限额或付费门槛不能被误读为技术失败。",
+      "opportunity": "O06：分别反馈参与、正确重试、有效口语与章节完成，并让奖励解释回到学习目标。",
+      "evidence": [
+        "dino-reward",
+        "buddy-reward",
+        "duo-repair",
+        "duo-phonetic",
+        "lingo-certificate-video"
+      ]
+    },
+    {
+      "id": "M07",
+      "module": "听力、视频与内容控制",
+      "task": "听/看内容能否暂停、回看、看字幕，并进入下一学习动作",
+      "dino": "Radio2:04自然结束样本可看字幕、暂停与列表；其它内容有锁定墙。",
+      "competitor": "Speak首课讲解后接练习；Lingo太空视频自然结束后接选择/排序或复习；Duo指南短语与播放入口可达。",
+      "advantage": "Dino的自主听力控制在本样本清楚；Speak/Lingo将讲解或观看结果连接到后续练习更直接可读。",
+      "tradeoff": "未做同一内容/难度的控制实验，不评定理解率或音频质量。",
+      "opportunity": "O07：为Radio结束提供一个可选择的小练习/回顾，保留自主退出。",
+      "evidence": [
+        "dino-radio",
+        "speak-modes",
+        "lingo-entry",
+        "lingo-certificate"
+      ]
+    },
+    {
+      "id": "M08",
+      "module": "报告、保存与再进入",
+      "task": "能否把本次实际练习、历史完成与后续计划区分",
+      "dino": "Trial Report给词句/反馈与互动、口语数；普通重启可再开报告。路径中Trial单列，Unit进度不直接等于丢失。",
+      "competitor": "Speak显示三模式勾/复习/收藏与自定义卡保持；Lingo15个不同活动普通重启保持；Duo游客节点/连胜保持。",
+      "advantage": "Dino单课词句和下一学习路径比单纯XP更具体；竞品的章节/复习入口可为进度状态设计提供参照。",
+      "tradeoff": "Dino奖励肯定文案与0口语并列需要解释；Lingo20活动/家长15/科目计数不同口径，也不应直接当掌握或丢失。",
+      "opportunity": "O08：解释统计口径、展示真实输入状态，并给错题/口语待补练入口。",
+      "evidence": [
+        "dino-report",
+        "dino-plan",
+        "speak-modes",
+        "lingo-progress",
+        "lingo-certificate",
+        "duo-guest"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "O01",
+      "priority": "P0",
+      "title": "教学纠错形成闭环",
+      "trigger": "目标练习出现错句/错答",
+      "proposal": "显示一个核心错误与正确示例，提供再试按钮，正确重说后明确采纳；自由聊天保留低打断模式。",
+      "proof": "M04",
+      "verify": "固定正常/错误/正确重试三种合成输入，检查提示、实际提交与采纳状态，不能只看推进。",
+      "unknown": "未证明提高识别率、学习或转化。"
+    },
+    {
+      "id": "O02",
+      "priority": "P0",
+      "title": "语音状态与跳过清晰分列",
+      "trigger": "没有输入、未提交或连续未识别",
+      "proposal": "区分未提交/未识别/错误/跳过/完成；支持文字或听力替代，报告保留本次未练口语标记。",
+      "proof": "M05、M08",
+      "verify": "故意不提交/空音频/错误句/跳过/正确重试分别验终态与报告字段。",
+      "unknown": "替代路径的年龄适用性和真实收益待测试。"
+    },
+    {
+      "id": "O03",
+      "priority": "P1",
+      "title": "评估课前身份门槛",
+      "trigger": "首次体验前要求第三方登录",
+      "proposal": "验证家长可控的游客体验，再在需要保存/报告时解释绑定价值；保持儿童隐私与家长责任边界。",
+      "proof": "M01",
+      "verify": "先做可用性测试，检查访客可达范围和升级后的状态衔接；之后才定义转化实验。",
+      "unknown": "顺序差异不证明当前登录造成流失。"
+    },
+    {
+      "id": "O04",
+      "priority": "P1",
+      "title": "画像回答到内容的映射可解释",
+      "trigger": "生成计划或个性化课程",
+      "proposal": "展示年龄/基础/目标分别影响什么，允许修正摘要；区分目标预测与已验证能力。",
+      "proof": "M02",
+      "verify": "两套合成画像只改一个字段，追踪摘要/内容变化和返回修改。",
+      "unknown": "尚无画像→内容完整因果验证。"
+    },
+    {
+      "id": "O05",
+      "priority": "P1",
+      "title": "每段课有明确目标与下一步",
+      "trigger": "进入/结束一个教学段",
+      "proposal": "显示本段学什么、需要什么输入、怎样算完成；完课后优先错题/待补口语/下一课。",
+      "proof": "M03",
+      "verify": "从入口到报告连续录制，核查每段目标、结束条件和返回。",
+      "unknown": "不能用竞品章节数证明课程更有效。"
+    },
+    {
+      "id": "O06",
+      "priority": "P2",
+      "title": "奖励解释回到学习行为",
+      "trigger": "金币、盲盒、星级或证书出现",
+      "proposal": "保留角色收藏优势，分别说明参与奖励/正确重试/有效语音/章节完成。",
+      "proof": "M06",
+      "verify": "包含错误仍推进与无语音推进的对照场景，看奖励措辞是否准确。",
+      "unknown": "奖励大小不等于学习或留存效果。"
+    },
+    {
+      "id": "O07",
+      "priority": "P2",
+      "title": "听力结束后可选小回顾",
+      "trigger": "Radio自然结束",
+      "proposal": "提供一个短回顾/字幕词句/相关口语入口，让自主听力连接练习，允许直接返回。",
+      "proof": "M07",
+      "verify": "正常结束/暂停/退出/回看分别验证，再记录是否进入可选练习。",
+      "unknown": "没有同内容的理解率比较。"
+    },
+    {
+      "id": "O08",
+      "priority": "P0",
+      "title": "报告口径与输入证据对齐",
+      "trigger": "完成报告中语音为0但有肯定与奖励",
+      "proposal": "清楚解释互动、实际提交、有效口语、词句掌握与完成状态，避免把参与肯定写成能力达标。",
+      "proof": "M08",
+      "verify": "用有提交与无提交两类课程检查报告，重启后复查相同指标/状态。",
+      "unknown": "不从UI计数判断后台事件或数据丢失。"
+    }
+  ],
+  "limits": [
+    "同一任务的小样本对照，不是同龄儿童随机实验；Speak/Duolingo只参照可迁移机制。",
+    "Google身份衔接/成人邮箱UI保存不等于新注册、邮箱归属或跨设备云同步。",
+    "UI正确率、星级、金币和证书不当ASR准确率或学习效果。",
+    "模拟器兼容、输入/采集故障和付费门槛分列，不当真实手机产品缺陷。",
+    "公开短片为无声衍生，视频轨实际时长与父源容器/音轨时长可能不同；不做原声耳听结论。",
+    "完整原片/旧失败保留本地；短片不是全程录屏替代，也未声称全片逐帧人工语义审查。",
+    "优化优先级是分析建议，实施收益、转化与留存没有测量。"
+  ],
+  "discussion": [
+    "是否把固定场景矩阵与成对证据作为今后默认验收，先保证可比较再加新模块？",
+    "是否下一轮把合格配置与控制器合并成单入口，先覆盖现有已验证设备，而非新建大自动化系统？",
+    "报告确认后是否先归档重复派生/诊断临时物，完整原片与引用证据继续保留热索引？"
+  ]
+}

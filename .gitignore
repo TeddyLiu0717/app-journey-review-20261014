@@ -1,0 +1,8 @@
+.env*
+*.log
+*.zip
+*.7z
+raw/
+originals/
+private/
+reports/
