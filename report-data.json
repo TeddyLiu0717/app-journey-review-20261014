@@ -262,7 +262,8 @@
         "buddy-profile",
         "speak-plan",
         "speak-custom",
-        "speak-personalized"
+        "speak-personalized",
+        "speak-generation-detail"
       ],
       "proof_scope": "画像、计划和自定义摘要为直接页面；画像到全部课程的因果映射未验证。"
     },
@@ -281,7 +282,8 @@
         "speak-modes",
         "lingo-sort",
         "lingo-certificate",
-        "duo-repair"
+        "duo-repair",
+        "dino-classroom"
       ],
       "proof_scope": "页面/短片证明所示节点与结果；不代表一个连续首次注册全程。"
     },
@@ -305,7 +307,8 @@
         "speak-error-page",
         "speak-explanation-page",
         "speak-target-page",
-        "buddy-chat"
+        "buddy-chat",
+        "speak-dialogue-detail"
       ],
       "proof_scope": "错句后继续、主动求纠正、Speak目标与建议不一致、Duo重练有对应画面；模式不同，不概括总体模型能力。"
     },
@@ -323,7 +326,8 @@
         "duo-skip",
         "lingo-speaking",
         "lingo-speaking-auto",
-        "speak-modes"
+        "speak-modes",
+        "duo-skip-detail"
       ],
       "proof_scope": "可直接复核界面推进/跳过；无输入和权限关闭需结合本地操作回执，静音媒体本身不证明。"
     },
@@ -349,17 +353,18 @@
       "id": "M07",
       "module": "听力、视频与内容控制",
       "task": "听/看内容能否暂停、回看、看字幕，并进入下一学习动作",
-      "dino": "公开Radio片可见字幕、暂停与列表控制；2:04播放自然结束只在本地操作记录有佐证，当前短片没有覆盖终点。",
-      "competitor": "Speak三模式完成页可见；本地记录描述讲解后练习，以及Lingo视频后选择/排序。当前公开配图未连续呈现这些转换。",
-      "advantage": "Dino自主听力控制有直接画面；讲解/观看后连接练习是值得验证的设计方向，当前公开包不足以作强弱排序。",
-      "tradeoff": "未做同内容/难度对照，也没有公开连续转换片；不评定理解率、音频质量或连接效率。",
+      "dino": "Radio可看字幕、暂停、列表及播放位置。下面的末态PNG显示位置到2:04，Radio片段覆盖播放控制；自然结束仍依据本地操作记录，不称这段Radio视频已覆盖终点。",
+      "competitor": "Lingokids的连续片段保留ISS视频末段、返回课程地图及进入Select下一活动的过程。可以直接看见顺序；没有据此比较理解率或学习收益。",
+      "advantage": "Dino的听力控制有直接画面；Lingokids这段观看结束到下一活动的顺序也可直接观看。内容、难度不同，不据此给学习效果排名。",
+      "tradeoff": "新增片仅说明该样本中的观看结束、地图与下一活动可达；没有同内容/难度的理解率、音频质量或连接效率对照。",
       "opportunity": "O07：先验证Radio结束的实际状态，再评估可选回顾；当前为低优先级假设。",
       "evidence": [
         "dino-radio",
         "speak-modes",
-        "lingo-certificate"
+        "lingo-certificate",
+        "lingo-video-to-practice"
       ],
-      "proof_scope": "当前公开Radio片只覆盖播放控制。自然结束、视频到练习衔接为记录佐证，未提供连续公开片。"
+      "proof_scope": "新增Lingo片为连续实际PTS区间，已展示视频→地图→Select；Radio短片仍只覆盖控制。源077尾部异常状态保留，不升级为整次录制成功。"
     },
     {
       "id": "M08",
@@ -486,7 +491,7 @@
     "已实现：统一只读工作入口及证据导出/校验。仍待实现：原生UI控制器合并；工具可读不等于App已重新合格。",
     "待报告确认：再按清单可恢复归档重复派生与诊断临时物；完整原片与引用证据继续保留。"
   ],
-  "revision": "2026-10-15-quality-v3",
+  "revision": "2026-10-15-visual-v4",
   "environment": [
     [
       "Dino AI",
@@ -788,12 +793,13 @@
       "claim": "Radio结束与视频接练习",
       "date": "2026-10-03—14分批",
       "source": "DINO-MODULES-OBS；L77-WATCH / L78-BOOK2",
-      "direct": "Radio控制可见；三模式/章节结果可见",
-      "boundary": "当前短片不含Radio终点或视频→练习完整转换，结论已收窄",
+      "direct": "Radio控制及末态PNG可见；新增Lingo连续视频显示视频结束→课程地图→Select",
+      "boundary": "Radio短片仍未覆盖自然终点；Lingo新增片源尾部异常状态保留，不升级整段录制验收。",
       "evidence": [
         "dino-radio",
         "speak-modes",
-        "lingo-certificate"
+        "lingo-certificate",
+        "lingo-video-to-practice"
       ]
     },
     {
@@ -807,5 +813,6 @@
         "lingo-progress"
       ]
     }
-  ]
+  ],
+  "visual_report_title": "五款App逐屏体验：流程、交互与Dino对比"
 }

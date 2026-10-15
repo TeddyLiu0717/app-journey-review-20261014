@@ -1,0 +1,1373 @@
+{
+  "revision": "2026-10-15-visual-v4",
+  "apps": {
+    "dino": {
+      "app": "Dino AI",
+      "sequence_boundary": "10/03首次入口与首课 + 10/04续课 + 后续自主模块/自由聊天；跨批代表链，不是单一无剪辑全程。",
+      "gaps": [
+        "第三方账号选择器为隐私暂停，无公开候选；不补造截图",
+        "结构课正确/故意错误/正确重试的同条件语音对照未完整证明"
+      ],
+      "steps": [
+        {
+          "id": "dino-01",
+          "order": 1,
+          "title": "价值介绍与身份入口",
+          "phase": "身份",
+          "text": "欢迎页用老师角色介绍学习体验，并提供 Google 与 Facebook 身份入口。本次样本随后进入学习档案设置。",
+          "images": [
+            "dino-entry"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-02",
+          "order": 2,
+          "title": "昵称输入页",
+          "phase": "画像",
+          "text": "学习档案从昵称页开始。页面提供昵称输入区域，接下来的年龄与基础问题用于继续建立学习档案。",
+          "images": [
+            "screen-3880d7dffc68"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-03",
+          "order": 3,
+          "title": "年龄与基础画像",
+          "phase": "画像",
+          "text": "年龄与英语基础分别设页选择。本次使用虚构的六岁档案，基础选为 Just starting，随后继续引导。",
+          "images": [
+            "dino-profile",
+            "screen-4a3b1f7d235c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-04",
+          "order": 4,
+          "title": "目标末页与选老师",
+          "phase": "画像",
+          "text": "目标页显示已到第四步，继续后可选老师。本次选择 Kim，之后进入由该老师出场的体验课堂。",
+          "images": [
+            "screen-202f7861bbe6",
+            "screen-83cb47821d3c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-05",
+          "order": 5,
+          "title": "课堂首次互动",
+          "phase": "课内",
+          "text": "进入课堂后，老师角色与食物场景同时出现。画面依次展示初始互动，以及 Apple 环节之后的课堂状态。",
+          "images": [
+            "screen-757d3b5933a4",
+            "screen-4c96f454a021"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-06",
+          "order": 6,
+          "title": "礼物与继续课堂",
+          "phase": "课内",
+          "text": "课堂中穿插礼物选择和开礼物页面。礼物画面与随后继续学习的状态，构成体验课中的奖励节点。",
+          "images": [
+            "screen-84fba21f07ae",
+            "screen-33b84f240d4b"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-07",
+          "order": 7,
+          "title": "Bread听词错选与改选",
+          "phase": "纠错",
+          "text": "Bread 听词环节先点到 Apple 选项，随后改选并继续。相邻画面展示选择后的状态与正确分支转换。",
+          "images": [
+            "screen-2ec7ef1a74d8",
+            "screen-628e3a7c4e97",
+            "screen-619abcc8af03"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-08",
+          "order": 8,
+          "title": "麦克风与Send状态",
+          "phase": "课内",
+          "text": "点击麦克风后进入录音相关状态，随后出现 Send 提交后的页面。接下来的课堂内容已切换到 Juice。",
+          "images": [
+            "screen-120bbf5a3c89",
+            "screen-6e83a3bb1b25",
+            "screen-05421b52f821"
+          ],
+          "videos": [
+            "dino-classroom"
+          ]
+        },
+        {
+          "id": "dino-09",
+          "order": 9,
+          "title": "课内求助",
+          "phase": "课内",
+          "text": "课堂 Help 菜单提供求助选项。选择 Ask Dino for Help 后，画面显示求助状态以及老师给出的回应。",
+          "images": [
+            "screen-95e87e85b744",
+            "screen-ac8b8d9efdd0",
+            "screen-065bbe0d5f0d"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-10",
+          "order": 10,
+          "title": "完课与反馈提交",
+          "phase": "课后",
+          "text": "体验课走到 Lesson Complete，并呈现合照、宝箱和反馈页面。反馈提交后，下一步进入单课报告入口。",
+          "images": [
+            "screen-f3bdbb32bdb1",
+            "screen-8200bef84ee7"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-11",
+          "order": 11,
+          "title": "单课报告",
+          "phase": "课后",
+          "text": "Trial Report 汇总老师反馈、词句卡和奖励。本次显示八次互动，同时列出口语回合和说出词数均为零。",
+          "images": [
+            "screen-8e35ac8c637f",
+            "screen-334f7baf37f0",
+            "dino-report",
+            "screen-8cd91d0a341b"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-12",
+          "order": 12,
+          "title": "个性化路径与Pro/Max",
+          "phase": "权益",
+          "text": "报告之后可进入个性化学习路径，查看 Pro 与 Max 计划。页面分别呈现课次安排、教师特点和学习目标。",
+          "images": [
+            "screen-353497150684",
+            "dino-plan",
+            "screen-aeade7748418"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-13",
+          "order": 13,
+          "title": "Words题目与结果",
+          "phase": "课内",
+          "text": "Words 模块可从 Rooms 内容进入代表题目。题目页面之后有完成状态，形成独立于体验课的词汇练习。",
+          "images": [
+            "screen-1d8990ee9807",
+            "screen-942b1e7e536c",
+            "screen-e0f8153f510c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-14",
+          "order": 14,
+          "title": "Radio播放控制",
+          "phase": "课内",
+          "text": "Radio 页面提供播放、字幕、暂停和列表控制。对应截图分别展示播放中的字幕、暂停状态及内容末态。",
+          "images": [
+            "screen-6452015efea5",
+            "screen-4968104299f3",
+            "screen-425cb809eda5",
+            "screen-a70259eab095"
+          ],
+          "videos": [
+            "dino-radio"
+          ]
+        },
+        {
+          "id": "dino-15",
+          "order": 15,
+          "title": "盲盒答题到奖励",
+          "phase": "课内",
+          "text": "Blind Box 以题目推进到结果，再展示抽取奖励与本轮完成。答题、获得票券、奖励呈现是不同的页面状态。",
+          "images": [
+            "screen-cce6b09a7478",
+            "screen-ac6907c55d40",
+            "screen-6a245b538914",
+            "screen-e0a96016a8b2"
+          ],
+          "videos": [
+            "dino-reward"
+          ]
+        },
+        {
+          "id": "dino-16",
+          "order": 16,
+          "title": "免费限额及返回",
+          "phase": "权益",
+          "text": "免费范围在不同入口呈现不同提示：游戏显示每日限额，Radio 锁定内容进入方案页，关闭后还可见优惠页面。",
+          "images": [
+            "screen-b3207aed1eab",
+            "screen-3ea80a9fd7e0",
+            "screen-c270a3027e29",
+            "screen-818e4572fc30"
+          ],
+          "videos": []
+        },
+        {
+          "id": "dino-17",
+          "order": 17,
+          "title": "自由聊天错句与显式求纠正",
+          "phase": "纠错",
+          "text": "Speaking 自由聊天中，错句之后出现继续对话的回应；另一次明确请求纠正后，老师给出表达示例。",
+          "images": [
+            "screen-b391507f904b",
+            "screen-a5ede242da02"
+          ],
+          "videos": [
+            "dino-chat-error",
+            "dino-chat-correction"
+          ]
+        },
+        {
+          "id": "dino-18",
+          "order": 18,
+          "title": "重开与旧报告读回",
+          "phase": "课后",
+          "text": "普通重开后可再次看到首页和既有 Trial Report。报告保留原先的口语计数，后来的自由聊天没有显示在该页。",
+          "images": [
+            "screen-b1fb33b76690",
+            "screen-0ebe889ac6c4",
+            "screen-8cf936622972"
+          ],
+          "videos": []
+        }
+      ]
+    },
+    "buddy": {
+      "app": "Buddy.ai",
+      "sequence_boundary": "10/05家长引导与10/06多次免费节点；同地图的跨批续作，不能呈现为一次连续新手课。",
+      "gaps": [
+        "家长年龄门只按成人虚构记录处理；截图先做隐私/年龄资料像素复核",
+        "免费范围与其他主题未全量覆盖"
+      ],
+      "steps": [
+        {
+          "id": "buddy-01",
+          "order": 1,
+          "title": "故事介绍与角色入口",
+          "phase": "身份",
+          "text": "应用以故事和角色介绍开场，展示 Buddy 的世界与学习内容。画面随后出现角色入口，继续引导到家长流程。",
+          "images": [
+            "screen-9c5110073947",
+            "screen-a1ed1087596e",
+            "screen-ea6b191e34d4"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-02",
+          "order": 2,
+          "title": "家长昵称与年龄",
+          "phase": "画像",
+          "text": "家长流程提供姓名与年龄相关页面。本次使用虚构的六岁档案，姓名页可跳过，随后展示对应年龄的介绍文案。",
+          "images": [
+            "screen-0c25f908f9a0",
+            "screen-47a0571cfbc9"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-03",
+          "order": 3,
+          "title": "兴趣问卷",
+          "phase": "画像",
+          "text": "兴趣问题提供 Animals、Dinos 等选项，另有沟通特点问题。不同问题分步呈现，之后继续补充学习情况。",
+          "images": [
+            "screen-6505954a6331",
+            "screen-c146b700e7a7"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-04",
+          "order": 4,
+          "title": "识字与数学问卷",
+          "phase": "画像",
+          "text": "问卷进一步询问识字和数学水平，分别呈现字母、数字相关选项。它们与前面的兴趣回答共同组成引导内容。",
+          "images": [
+            "buddy-profile",
+            "screen-8bd968e8c3c2"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-05",
+          "order": 5,
+          "title": "计划生成到Ready",
+          "phase": "画像",
+          "text": "回答后依次出现 Personalizing、Ready 和 Try Buddy World 页面，用生成计划的过程把家长问卷连接到学习世界。",
+          "images": [
+            "screen-5759f1a9895c",
+            "screen-cf12b5c7a5dd",
+            "screen-cc39d5501367"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-06",
+          "order": 6,
+          "title": "麦克风许可与免费地图",
+          "phase": "课内",
+          "text": "进入学习内容时出现麦克风许可页面。学习目录展示 Listening 等入口，Shapes 则以地图形式组织免费节点。",
+          "images": [
+            "screen-a1e1e7b92941",
+            "screen-df376beb9f8a",
+            "screen-a5bc34e666be"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-07",
+          "order": 7,
+          "title": "卡片练习与返回地图",
+          "phase": "课内",
+          "text": "卡片练习以颜色与角色图片呈现。下方保留练习中的卡面，以及回到主题地图后的状态；不以地图金币倒推每一张卡的语音识别结果。",
+          "images": [
+            "screen-001be8f7d6f7",
+            "screen-2674ad27413c",
+            "screen-3b1ff211d709"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-08",
+          "order": 8,
+          "title": "听词故意错选black",
+          "phase": "纠错",
+          "text": "听词节点中，本次故意选择 black。画面保留错误选择后的状态，下一步再按提示改选 white 完成同一节点。",
+          "images": [
+            "screen-00c0af174e3b"
+          ],
+          "videos": [
+            "buddy-wrong"
+          ]
+        },
+        {
+          "id": "buddy-09",
+          "order": 9,
+          "title": "改选white完成",
+          "phase": "纠错",
+          "text": "改选 white 后出现完成状态，并提供领奖入口。正确分支与之前的错选属于同一个听词任务，可以前后对照。",
+          "images": [
+            "screen-392c2c38c9ff",
+            "screen-e365d15468e6"
+          ],
+          "videos": [
+            "buddy-correct"
+          ]
+        },
+        {
+          "id": "buddy-10",
+          "order": 10,
+          "title": "领奖返回地图",
+          "phase": "课后",
+          "text": "点击领奖后回到地图，页面展示新的余额与后续节点。奖励结果和下一步入口在地图上同时可见。",
+          "images": [
+            "screen-e15ce7c63516"
+          ],
+          "videos": [
+            "buddy-reward"
+          ]
+        },
+        {
+          "id": "buddy-11",
+          "order": 11,
+          "title": "口语purple尝试",
+          "phase": "课内",
+          "text": "口语练习的 purple 卡片经过合成输入后出现反馈。截图分别展示输入后的角色状态，以及随后稳定的反馈页面。",
+          "images": [
+            "screen-3e6af9c9b43b",
+            "screen-1031b6b67717"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-12",
+          "order": 12,
+          "title": "white无输入分支",
+          "phase": "纠错",
+          "text": "另一张 white 卡片在未提交语音的等待过程中出现提示。两张截点展示提示后与继续等待时的页面状态。",
+          "images": [
+            "screen-ea65412951d8",
+            "screen-298472bea0c9"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-13",
+          "order": 13,
+          "title": "gray题故意说white",
+          "phase": "纠错",
+          "text": "gray 卡片先展示题目，再展示故意说 white 后的反馈。该组与 purple、pink 是不同卡片，按练习顺序展示。",
+          "images": [
+            "screen-98ba9a8f3def",
+            "screen-fd928f3cc18a"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-14",
+          "order": 14,
+          "title": "pink到语音节点完成",
+          "phase": "课后",
+          "text": "末张卡片之后出现 pink 反馈，再回到完成地图。题目、反馈和地图结果分别对应语音节点的不同阶段。",
+          "images": [
+            "screen-c386bd121914",
+            "screen-cd292c939a8d",
+            "screen-cf4d820c55d0"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-15",
+          "order": 15,
+          "title": "颜色记忆配对",
+          "phase": "课内",
+          "text": "颜色记忆配对以翻牌板进行，完成后回到地图。配对板的状态和完成地图可一起说明这个独立游戏节点。",
+          "images": [
+            "screen-6267f58fd0ef",
+            "screen-74d7b849789a"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-16",
+          "order": 16,
+          "title": "返回房间与设置",
+          "phase": "课后",
+          "text": "从学习内容返回管理区域后，家长年份门槛与Settings分别呈现。下方直接展示门槛和设置页，本轮只查看，没有切换设置。",
+          "images": [
+            "screen-f419b8b8409b",
+            "screen-647c08a9ae5c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-17",
+          "order": 17,
+          "title": "家长页与账号权益",
+          "phase": "权益",
+          "text": "家长页可进入账户设置。页面显示创建账户需要订阅，Create account 灰显，同时保留 Sign In 入口。",
+          "images": [
+            "screen-647c08a9ae5c",
+            "screen-6e7294c6fe4a"
+          ],
+          "videos": []
+        },
+        {
+          "id": "buddy-18",
+          "order": 18,
+          "title": "等级读回与返回",
+          "phase": "画像",
+          "text": "等级设置中 Kindergarten 选项高亮，随后可返回家长区域。本次只查看已有等级和返回状态，没有切换等级。",
+          "images": [
+            "screen-c4cfa566f756",
+            "screen-647c08a9ae5c"
+          ],
+          "videos": []
+        }
+      ]
+    },
+    "lingokids": {
+      "app": "Lingokids",
+      "sequence_boundary": "075–079的Astronaut完整代表课：起始Knowledge Check + Book1 + Book2 + Book3 + 最终Progress Check。077/078重启续作；旧Astronomer/166崩溃另列，不混入完成课。",
+      "gaps": [
+        "初始邮箱身份/Basic limited出口/首次画像未有已确认安全候选；不使用旧API35/36崩溃闪屏冒充完成入口",
+        "真实邮箱、账号页、头像、家长年龄门源图不列入候选",
+        "077/078异常源结束与079正常封口分列；原生PNG存在不等于原片全帧人工审阅",
+        "Astronomer/166旧崩溃独立附录；本候选不引用其宿主/Android不同步画面"
+      ],
+      "steps": [
+        {
+          "id": "lingokids-01",
+          "order": 1,
+          "title": "免费首页到Astronaut课程",
+          "phase": "课内",
+          "text": "本次从免费首页进入 Astronaut 课程，课程页提供主题说明与地图。后续按照起始检查和三本学习单元继续。",
+          "images": [
+            "lingo-entry",
+            "screen-d153eb2e9b1b",
+            "screen-186ba5461b32"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-02",
+          "order": 2,
+          "title": "起始Knowledge Check",
+          "phase": "课内",
+          "text": "课程先进入 Knowledge Check，出现关于太空主题的问题。Moon 题选择之后，地图展示起始检查已完成的勾。",
+          "images": [
+            "screen-dd96bc102032",
+            "screen-83efc40df690",
+            "screen-1aa6647c7f5c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-03",
+          "order": 3,
+          "title": "Book1 Explore多页引导",
+          "phase": "课内",
+          "text": "第一本 Explore 通过多个页面介绍宇宙飞船、科学家与职业。完成引导后回到地图，Explore 节点显示完成。",
+          "images": [
+            "screen-bb277d05b350",
+            "screen-bb685500d2b5",
+            "screen-54036defac0e"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-04",
+          "order": 4,
+          "title": "Book1 Collect操控任务",
+          "phase": "课内",
+          "text": "Collect 先展示操作教程，再进入飞行和收集任务。画面分别呈现操作中的角色状态与放开控制后的页面。",
+          "images": [
+            "screen-aec2291a698a",
+            "screen-8a7050385939",
+            "screen-656544efcbbd"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-05",
+          "order": 5,
+          "title": "Book1工具配对与纠正",
+          "phase": "纠错",
+          "text": "工具配对先给出配对板，本次故意把相机配错，再按提示改正。随后面板出现正确状态，最后显示活动完成。",
+          "images": [
+            "screen-4e14c32e7141",
+            "screen-ea2786ea1bfb",
+            "screen-16f4a9fdd730",
+            "screen-343802217c74"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-06",
+          "order": 6,
+          "title": "Book1 Jobs/Review到第二本",
+          "phase": "课内",
+          "text": "第一本还包含 Jobs 和 Review。完成这些活动后，页面显示第一本结束，并继续开放第二本的学习内容。",
+          "images": [
+            "screen-bfefe3449b6f",
+            "screen-552a4fc92a04",
+            "screen-480c5fd46af9"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-07",
+          "order": 7,
+          "title": "Book2 Floating/Catch",
+          "phase": "课内",
+          "text": "第二本先讲漂浮与工具相关知识，再进入 Catch 任务。食物和锻炼分别出现在后续游戏阶段中。",
+          "images": [
+            "screen-8dc070263bc8",
+            "screen-c071197d749c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-08",
+          "order": 8,
+          "title": "Book2地球月球分类错投重试",
+          "phase": "纠错",
+          "text": "地球与月球分类中，本次先把站立人物错投到月球，再改投地球。改正后继续整理，地图最后出现 Sort 勾。",
+          "images": [
+            "screen-916783f01f91",
+            "screen-e96a4b312401",
+            "screen-5745b678e06a",
+            "screen-4cb26310053b"
+          ],
+          "videos": [
+            "lingo-sort"
+          ]
+        },
+        {
+          "id": "lingokids-09",
+          "order": 9,
+          "title": "Book2 ISS视频到完成勾",
+          "phase": "课内",
+          "text": "ISS 内容以视频播放，播放中的画面与结束后的地图分别留有截图。结束后可继续进入下一项选择活动。",
+          "images": [
+            "screen-b716cc95d4e2",
+            "screen-a4ac883aa8e4"
+          ],
+          "videos": [
+            "lingo-video-to-practice"
+          ]
+        },
+        {
+          "id": "lingokids-10",
+          "order": 10,
+          "title": "Book2 Select赛道反馈",
+          "phase": "课内",
+          "text": "Select 采用赛道问题，页面给出路线反馈。本次结果含红绿反馈，回到地图后仍显示 Select 活动完成。",
+          "images": [
+            "screen-10fee40ea1c1",
+            "screen-2ee1ecb8d160",
+            "screen-9a23454e05ef"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-11",
+          "order": 11,
+          "title": "Book2生活排序与最后视频",
+          "phase": "课内",
+          "text": "Order 将生活活动放入顺序板，完成后显示全绿结果。接着观看吃饭视频，第二本结束并开放第三本。",
+          "images": [
+            "screen-ba593a8db5c6",
+            "screen-20212574cd2c",
+            "screen-74cedf600d8a"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-12",
+          "order": 12,
+          "title": "Book3 Explore与口语邀请",
+          "phase": "课内",
+          "text": "第三本 Explore 继续以图文介绍内容，随后出现口语邀请。本次等待后的地图仍显示 Explore 已完成。",
+          "images": [
+            "screen-69759fcd35fd",
+            "lingo-speaking",
+            "screen-6bae1d0f334c"
+          ],
+          "videos": [
+            "lingo-speaking-auto"
+          ]
+        },
+        {
+          "id": "lingokids-13",
+          "order": 13,
+          "title": "Book3 Match",
+          "phase": "课内",
+          "text": "Match 包含数字和团队合作等内容页，之后返回活动完成状态。这里将题目内容与完成地图相邻展示。",
+          "images": [
+            "screen-ac30a9474629",
+            "screen-9d60cf3e9e43",
+            "screen-c17e827e7528"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-14",
+          "order": 14,
+          "title": "Book3 Choose",
+          "phase": "课内",
+          "text": "Choose 继续围绕健康食物、休息和锻炼提问。题目页之后有单独的 Choose 完成结果，供继续下一活动。",
+          "images": [
+            "screen-482f29499dcd",
+            "screen-21986e66e2d3",
+            "screen-65bfbfa1b4c5"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-15",
+          "order": 15,
+          "title": "Book3 Sort到Review",
+          "phase": "课内",
+          "text": "Sort 将活动分为独自完成与共同完成，完成后地图出现勾。普通重开后接续 Review，并到达该复习活动的结果。",
+          "images": [
+            "screen-ad8631e5c7a9",
+            "screen-d3d64e97b554",
+            "screen-e9e0040fc378",
+            "screen-7c97c2dc0890"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-16",
+          "order": 16,
+          "title": "最终Progress Check四题",
+          "phase": "课后",
+          "text": "最终Progress Check依次出现实验、漂浮、锻炼和月球四个主题。下方展示题目反馈，完成后的证书与后继推荐在下一步对照。",
+          "images": [
+            "screen-95e097d357e1",
+            "screen-37016919496f",
+            "screen-f26556e52aa5",
+            "screen-40576f35b02c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "lingokids-17",
+          "order": 17,
+          "title": "三本完成与证书",
+          "phase": "课后",
+          "text": "课程地图显示三本学习单元完成，随后可以打开证书。证书页标明三单元完成，并连接到后继课程推荐。",
+          "images": [
+            "screen-ee6f6faf894c",
+            "lingo-certificate",
+            "screen-946ff424d513",
+            "screen-ca54748737fb"
+          ],
+          "videos": [
+            "lingo-certificate-video"
+          ]
+        },
+        {
+          "id": "lingokids-18",
+          "order": 18,
+          "title": "家长进度及再次重开读回",
+          "phase": "课后",
+          "text": "家长进度显示十五项 Completed，另列科目与技能卡。再次普通重开后仍可读到十五项，统计页与课程地图分别呈现。",
+          "images": [
+            "lingo-progress",
+            "screen-98f0945af5ea",
+            "screen-c837ceaf6461"
+          ],
+          "videos": []
+        }
+      ]
+    },
+    "speak": {
+      "app": "Speak",
+      "sequence_boundary": "10/03首课及后续实践/对话/自定义课程跨批样本；成人产品仅对照机制。",
+      "gaps": [
+        "私人Google账号选择器跳过",
+        "课内合成输入与实际提交须RPC/动作记录；静态绿字不当逐字转写"
+      ],
+      "steps": [
+        {
+          "id": "speak-01",
+          "order": 1,
+          "title": "学习语言及界面语言",
+          "phase": "身份",
+          "text": "首次进入先选择学习语言，再选择母语或界面语言。本次选择学习英语，后续页面使用简体中文继续引导。",
+          "images": [
+            "screen-00c8b68d46ff",
+            "screen-89cc235bbe7c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-02",
+          "order": 2,
+          "title": "身份入口与虚构昵称",
+          "phase": "身份",
+          "text": "账号页提供身份衔接入口，返回应用后进入昵称流程。本次使用编造昵称 Alex，之后由 Tutor 开始了解目标。",
+          "images": [
+            "speak-entry",
+            "screen-c98382b513bb"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-03",
+          "order": 3,
+          "title": "访谈目标与基础",
+          "phase": "画像",
+          "text": "Tutor 围绕旅行目标继续追问准备时间和英语基础。画面包括语音后的追问、文字回答以及初学者信息。",
+          "images": [
+            "screen-7e1fd4eef2f2",
+            "screen-97f7db9a0290",
+            "screen-dd2f5661bb90"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-04",
+          "order": 4,
+          "title": "每日练习与年龄",
+          "phase": "画像",
+          "text": "引导继续询问每天练习时长和成人年龄范围。本次选择十五分钟，并使用二十至二十九岁的成人样本。",
+          "images": [
+            "screen-cd5002cff98b",
+            "screen-c2d47e1e76e0"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-05",
+          "order": 5,
+          "title": "生成计划和试用出口",
+          "phase": "画像",
+          "text": "访谈后出现旅行课程推荐和生成计划，随后展示试用介绍。页面底部提供继续查看免费内容的相关入口。",
+          "images": [
+            "screen-2753595085b4",
+            "speak-plan",
+            "screen-9cfb6b251214"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-06",
+          "order": 6,
+          "title": "进入首课",
+          "phase": "课内",
+          "text": "进入首页后可看到推荐课程和首个课程卡。打开课程后，页面转入本次首课的具体学习内容。",
+          "images": [
+            "screen-39dfe02c53d8",
+            "screen-ad9e4adf8817"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-07",
+          "order": 7,
+          "title": "课内跟读与再次开口提示",
+          "phase": "纠错",
+          "text": "跟读课中，Sounds good正常输入出现绿勾；另一截点提示再次开口，随后重说回到绿勾。下方图片与视频属于这一跟读场景；应用对话的语义纠错另见第12步。",
+          "images": [
+            "screen-90d548d70a63",
+            "screen-5e1fa7b4b2cd",
+            "screen-1c1ed039093b"
+          ],
+          "videos": [
+            "speak-correction"
+          ]
+        },
+        {
+          "id": "speak-08",
+          "order": 8,
+          "title": "词义求助与魔法字典",
+          "phase": "课内",
+          "text": "遇到 piece 时可打开词语帮助，查看如何改进的解释，再进入魔法字典。词义与表达帮助以独立页面呈现。",
+          "images": [
+            "screen-8d18224bdbff",
+            "screen-03e0ae4bdd38",
+            "screen-5aea2179e095"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-09",
+          "order": 9,
+          "title": "首课结果与连续练习",
+          "phase": "课后",
+          "text": "首课结果之后继续出现下一步、连胜目标和桌面组件邀请。课程结果与鼓励继续使用的提示依次出现。",
+          "images": [
+            "screen-148e5b9c8f0a",
+            "screen-cdd571bf09ac",
+            "screen-12dfb4e2257a",
+            "screen-198199db840f"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-10",
+          "order": 10,
+          "title": "口语练习及发音提示",
+          "phase": "课内",
+          "text": "口语练习页提供不同系列和题目选择，练习中另有发音提示。对应画面展示练习入口、选择项与提示内容。",
+          "images": [
+            "screen-51bf26bd97a2",
+            "screen-25503fe96084",
+            "screen-48c8544ffa4c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-11",
+          "order": 11,
+          "title": "Tutor求助与口语完成",
+          "phase": "课后",
+          "text": "练习中可向 Tutor 求助并阅读解释。随后口语练习到达完成状态，和前面的讲解课结果分别显示。",
+          "images": [
+            "screen-8c390167d592",
+            "screen-c05e5fba1a06"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-12",
+          "order": 12,
+          "title": "应用对话目标与故意错答",
+          "phase": "纠错",
+          "text": "应用对话第三题包含原目标、错答反馈、纠正建议和解释。本次原目标作答出现绿勾，建议文本另列便于对照。",
+          "images": [
+            "screen-36f7191b6440",
+            "screen-5ff8ee6489ed",
+            "speak-error-page",
+            "display-speak-explanation-page",
+            "speak-target-page"
+          ],
+          "videos": [
+            "speak-dialogue-detail"
+          ]
+        },
+        {
+          "id": "speak-13",
+          "order": 13,
+          "title": "退出后恢复选择",
+          "phase": "课内",
+          "text": "从对话中退出后，再进入会出现继续或重新开始的选择。选择继续后，页面回到先前对话的相应位置。",
+          "images": [
+            "screen-0154fe90a370",
+            "screen-f7118fd05898",
+            "screen-c7164094617c"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-14",
+          "order": 14,
+          "title": "完成三模式与总结果",
+          "phase": "课后",
+          "text": "应用对话完成后有单独结果页，回到首页可见三种模式的完成勾。三种结果应分别阅读，不能只看一个总图。",
+          "images": [
+            "screen-6edccb35e708",
+            "speak-modes"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-15",
+          "order": 15,
+          "title": "收藏词复习",
+          "phase": "课后",
+          "text": "已收藏的 piece 可从收藏区域再次打开并练习。复习结束后有结果页，已复习筛选也能读到对应词语。",
+          "images": [
+            "screen-19d1c02fa731",
+            "screen-13cc8d4f86f4",
+            "screen-ca4a2eb0049b"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-16",
+          "order": 16,
+          "title": "额外内容与付费门槛",
+          "phase": "权益",
+          "text": "汉堡角色扮演先展示场景说明和短语材料，开始时出现访问门槛。关闭后回到原角色扮演页面，未进入购买。",
+          "images": [
+            "screen-3dec996d92ff",
+            "screen-7408c3ada7e3",
+            "screen-5cd840b8c929"
+          ],
+          "videos": []
+        },
+        {
+          "id": "speak-17",
+          "order": 17,
+          "title": "独立自定义课程与重试",
+          "phase": "课内",
+          "text": "自定义课程先呈现访谈摘要，再显示生成成功。课程内有语音重试反馈，系列第一部分结束后出现继续预览门槛。",
+          "images": [
+            "speak-custom",
+            "screen-af00e17ef0f1",
+            "screen-19118478f3be",
+            "screen-3568646138e8"
+          ],
+          "videos": [
+            "speak-generation-detail",
+            "speak-personalized"
+          ]
+        },
+        {
+          "id": "speak-18",
+          "order": 18,
+          "title": "普通重开读回",
+          "phase": "课后",
+          "text": "普通重开后仍回到首页；自定义课程卡也可再次读到，并保留预览标记。它与首课和收藏复习分属不同内容。",
+          "images": [
+            "screen-1edaaca8b2e5",
+            "screen-564f68083f1e"
+          ],
+          "videos": []
+        }
+      ]
+    },
+    "duolingo": {
+      "app": "Duolingo",
+      "sequence_boundary": "10/04同一次首次免费课及后续探索；首课后建档顺序不得提前。",
+      "gaps": [
+        "课后建档Later无对应原生PNG候选，直接配duo-guest既有短片，不能拿开课前入口图作证",
+        "独立发音课13XP/87%为另批，不插入本首次课顺序"
+      ],
+      "steps": [
+        {
+          "id": "duolingo-01",
+          "order": 1,
+          "title": "GET STARTED与源语言",
+          "phase": "身份",
+          "text": "首次页面提供 GET STARTED。进入引导后，课程目录允许中文使用者选择英语，本次从这一组合继续免费体验。",
+          "images": [
+            "duo-entry",
+            "screen-9121c4d308a9"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-02",
+          "order": 2,
+          "title": "基础与旅行目标",
+          "phase": "画像",
+          "text": "引导分别询问英语基础和学习目标。本次选择初学者与旅游，随后继续设置每天的练习安排。",
+          "images": [
+            "screen-e80901b861e9",
+            "screen-3f21e955b715"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-03",
+          "order": 3,
+          "title": "每日练习目标",
+          "phase": "画像",
+          "text": "每日目标分步展示练习安排，本次选择十分钟。相关页面把学习频率和每天投入时间放在课程之前确认。",
+          "images": [
+            "screen-ab456af4ed20",
+            "screen-f9b91dd42756"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-04",
+          "order": 4,
+          "title": "拒绝通知继续",
+          "phase": "身份",
+          "text": "通知邀请被拒绝后仍可继续进入课程。对应画面展示拒绝后的状态，随后开始首课中的具体题目。",
+          "images": [
+            "screen-6dbf9e62ec76"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-05",
+          "order": 5,
+          "title": "Hello故意错答",
+          "phase": "纠错",
+          "text": "首课 Hello 题先故意作答错误，页面随即显示错误反馈和正确表达。这个结果会在课末错题环节再次出现。",
+          "images": [
+            "screen-991ae68f5d32"
+          ],
+          "videos": [
+            "duo-correction"
+          ]
+        },
+        {
+          "id": "duolingo-06",
+          "order": 6,
+          "title": "正确选择与下一题",
+          "phase": "纠错",
+          "text": "随后正确选择 Hello Eddy，并继续到第三题反馈。两张画面展示改正后的正向结果与课程继续状态。",
+          "images": [
+            "screen-745a29a30361",
+            "screen-894ca4f04c61"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-07",
+          "order": 7,
+          "title": "Hello语音尝试",
+          "phase": "课内",
+          "text": "Hello 的语音题在多次尝试后出现反馈。这里保留第三次尝试后的实际页面，与后面 Bye 的重试分开呈现。",
+          "images": [
+            "screen-e4c2ad9e2aba"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-08",
+          "order": 8,
+          "title": "Bye求助与重试",
+          "phase": "纠错",
+          "text": "Bye 题可查看提示，本次在重复语音尝试后仍未走通。截图展示提示与重试反馈，下一步转入跳过口语的分支。",
+          "images": [
+            "screen-3d2bdaa1bd6f",
+            "screen-23729a248ddc"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-09",
+          "order": 9,
+          "title": "主动跳过口语",
+          "phase": "纠错",
+          "text": "页面提供跳过口语的替代路径，本次主动选择后继续课程。该分支让首课可以在口语未通过时继续推进。",
+          "images": [
+            "duo-skip"
+          ],
+          "videos": [
+            "duo-skip-detail"
+          ]
+        },
+        {
+          "id": "duolingo-10",
+          "order": 10,
+          "title": "配对题",
+          "phase": "课内",
+          "text": "课程中还出现配对题，完成一轮后给出反馈。该画面对应配对活动，与选择题和口语题分别展示。",
+          "images": [
+            "screen-20b419147084"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-11",
+          "order": 11,
+          "title": "课末错题重练",
+          "phase": "纠错",
+          "text": "课末进入错题重练，先呈现回顾引导，再展示原错误被修正后的正确反馈。纠正动作位于首课结果之前。",
+          "images": [
+            "screen-2521dc635634",
+            "screen-b7c439db043d"
+          ],
+          "videos": [
+            "duo-repair"
+          ]
+        },
+        {
+          "id": "duolingo-12",
+          "order": 12,
+          "title": "首课结果",
+          "phase": "课后",
+          "text": "首课结果页显示二十七 XP、一小时和百分之九十二。这些是当时页面上的统计，保留原值方便读者核对。 页面用时包含测试等待，不作为正常学习耗时。",
+          "images": [
+            "screen-397bc07211ce"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-13",
+          "order": 13,
+          "title": "连胜与目标奖励",
+          "phase": "课后",
+          "text": "完课后展示一天连胜，再邀请选择七天目标，并给出目标奖励。学习结果与连胜激励在不同页面依次出现。",
+          "images": [
+            "screen-f682aee73e81",
+            "screen-8921ab4a28ef",
+            "screen-62fd14b9f46a"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-14",
+          "order": 14,
+          "title": "课后Later与游客档案",
+          "phase": "身份",
+          "text": "首课之后才出现建档邀请，本次选择 Later。随后个人页仍显示游客状态，可继续查看内容而没有创建档案。",
+          "images": [
+            "screen-62fd14b9f46a",
+            "screen-a25a354b7d8e"
+          ],
+          "videos": [
+            "duo-guest"
+          ]
+        },
+        {
+          "id": "duolingo-15",
+          "order": 15,
+          "title": "单元指南与功能门槛",
+          "phase": "权益",
+          "text": "单元指南提供后续学习说明，联赛与消息页则展示各自的访问条件。课程地图以外的功能需要分别进入查看。",
+          "images": [
+            "screen-6f9ece8c0256",
+            "screen-321ca56ae3ce",
+            "screen-518f64eadaee"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-16",
+          "order": 16,
+          "title": "订阅与Lily预览退出",
+          "phase": "权益",
+          "text": "订阅页展示权益；Lily 视频通话另有预览页面。退出预览后返回原页面，本次只查看内容，没有确认交易。",
+          "images": [
+            "screen-6595f73d001b",
+            "screen-cf02541aaa60",
+            "screen-7d37cc322ea9"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-17",
+          "order": 17,
+          "title": "第二课中途退出",
+          "phase": "课内",
+          "text": "第二课在答对 Chinese 题后中途退出。退出前有警告，确认离开后回到外层，这一课没有走到完成结果。",
+          "images": [
+            "screen-304958a3616e",
+            "screen-f8abfd33d619",
+            "screen-fa7fa549713b"
+          ],
+          "videos": []
+        },
+        {
+          "id": "duolingo-18",
+          "order": 18,
+          "title": "Widget及重开进度",
+          "phase": "课后",
+          "text": "桌面可以看到组件，普通重开后再次显示课程节点进度。截图保留当时的节点状态，与首次结果分开阅读。",
+          "images": [
+            "screen-fd438b20a627",
+            "screen-d861f650a4cf"
+          ],
+          "videos": []
+        }
+      ]
+    }
+  },
+  "module_evidence": [
+    {
+      "id": "M01",
+      "dino_images": [
+        "dino-entry",
+        "screen-3880d7dffc68",
+        "dino-profile",
+        "screen-83cb47821d3c"
+      ],
+      "primary_competitor": "duolingo",
+      "competitor_images": [
+        "duo-entry",
+        "screen-397bc07211ce",
+        "screen-a25a354b7d8e"
+      ],
+      "videos": [
+        "duo-guest"
+      ]
+    },
+    {
+      "id": "M02",
+      "dino_images": [
+        "dino-profile",
+        "screen-4a3b1f7d235c",
+        "dino-plan",
+        "screen-aeade7748418"
+      ],
+      "primary_competitor": "speak",
+      "competitor_images": [
+        "screen-7e1fd4eef2f2",
+        "speak-plan",
+        "speak-custom",
+        "screen-af00e17ef0f1"
+      ],
+      "videos": [
+        "speak-generation-detail"
+      ]
+    },
+    {
+      "id": "M03",
+      "dino_images": [
+        "screen-757d3b5933a4",
+        "screen-120bbf5a3c89",
+        "screen-8200bef84ee7",
+        "dino-report"
+      ],
+      "primary_competitor": "lingokids",
+      "competitor_images": [
+        "screen-1aa6647c7f5c",
+        "screen-4cb26310053b",
+        "screen-ca54748737fb",
+        "lingo-certificate"
+      ],
+      "videos": [
+        "dino-classroom",
+        "lingo-sort",
+        "lingo-certificate-video"
+      ]
+    },
+    {
+      "id": "M04",
+      "dino_images": [
+        "screen-b391507f904b",
+        "screen-a5ede242da02"
+      ],
+      "primary_competitor": "speak",
+      "competitor_images": [
+        "screen-36f7191b6440",
+        "screen-5ff8ee6489ed",
+        "speak-error-page",
+        "speak-target-page"
+      ],
+      "videos": [
+        "dino-chat-error",
+        "dino-chat-correction",
+        "speak-dialogue-detail"
+      ]
+    },
+    {
+      "id": "M05",
+      "dino_images": [
+        "screen-120bbf5a3c89",
+        "dino-report"
+      ],
+      "primary_competitor": "duolingo",
+      "competitor_images": [
+        "screen-23729a248ddc",
+        "duo-skip"
+      ],
+      "videos": [
+        "duo-skip-detail"
+      ]
+    },
+    {
+      "id": "M06",
+      "dino_images": [
+        "screen-cce6b09a7478",
+        "screen-ac6907c55d40",
+        "screen-6a245b538914",
+        "screen-e0a96016a8b2"
+      ],
+      "primary_competitor": "buddy",
+      "competitor_images": [
+        "screen-392c2c38c9ff",
+        "screen-e365d15468e6",
+        "screen-e15ce7c63516"
+      ],
+      "videos": [
+        "dino-reward",
+        "buddy-reward"
+      ]
+    },
+    {
+      "id": "M07",
+      "dino_images": [
+        "screen-6452015efea5",
+        "screen-4968104299f3",
+        "screen-425cb809eda5",
+        "screen-a70259eab095"
+      ],
+      "primary_competitor": "lingokids",
+      "competitor_images": [
+        "screen-b716cc95d4e2",
+        "screen-a4ac883aa8e4"
+      ],
+      "videos": [
+        "dino-radio",
+        "lingo-video-to-practice"
+      ]
+    },
+    {
+      "id": "M08",
+      "dino_images": [
+        "dino-report",
+        "screen-0ebe889ac6c4",
+        "screen-8cf936622972"
+      ],
+      "primary_competitor": "lingokids",
+      "competitor_images": [
+        "lingo-certificate",
+        "lingo-progress",
+        "lingo-progress"
+      ],
+      "videos": [
+        "lingo-certificate-video"
+      ]
+    }
+  ],
+  "image_note": "真实源画面，等比展示；模块与步骤重复引用相同文件，不重复采集。"
+}
