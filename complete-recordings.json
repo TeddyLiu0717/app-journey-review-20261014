@@ -185,7 +185,9 @@
           "privacy_masked": false,
           "boundary_container_interval_seconds": 0.0
         }
-      ]
+      ],
+      "offline_package_url": "https://github.com/TeddyLiu0717/app-journey-review-20261014/releases/download/complete-app-experiences-20261016/dino-complete-offline.zip",
+      "offline_package_bytes": 813998217
     },
     {
       "app": "buddy",
@@ -306,7 +308,9 @@
           "privacy_masked": false,
           "boundary_container_interval_seconds": 0.0
         }
-      ]
+      ],
+      "offline_package_url": "https://github.com/TeddyLiu0717/app-journey-review-20261014/releases/download/complete-app-experiences-20261016/buddy-complete-offline.zip",
+      "offline_package_bytes": 983938400
     },
     {
       "app": "lingokids",
@@ -379,7 +383,9 @@
           "privacy_masked": false,
           "boundary_container_interval_seconds": 0.0
         }
-      ]
+      ],
+      "offline_package_url": "https://github.com/TeddyLiu0717/app-journey-review-20261014/releases/download/complete-app-experiences-20261016/lingokids-complete-offline.zip",
+      "offline_package_bytes": 407951857
     },
     {
       "app": "speak",
@@ -596,7 +602,9 @@
           "privacy_masked": false,
           "boundary_container_interval_seconds": 0.0
         }
-      ]
+      ],
+      "offline_package_url": "https://github.com/TeddyLiu0717/app-journey-review-20261014/releases/download/complete-app-experiences-20261016/speak-complete-offline.zip",
+      "offline_package_bytes": 201652528
     },
     {
       "app": "duolingo",
@@ -669,7 +677,9 @@
           "privacy_masked": false,
           "boundary_container_interval_seconds": 0.0
         }
-      ]
+      ],
+      "offline_package_url": "https://github.com/TeddyLiu0717/app-journey-review-20261014/releases/download/complete-app-experiences-20261016/duolingo-complete-offline.zip",
+      "offline_package_bytes": 189940216
     }
   ],
   "scope": "报告关联的21批次50段完整文件；其他历史技术探索原件也保留，但不冒充本次五条合片内容。",
